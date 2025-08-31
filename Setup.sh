@@ -4,3 +4,4 @@ mv Jio.sh "$PREFIX/bin/Setup"
 chmod +x $PREFIX/bin/Setup
 Setup && {
 rm $PREFIX/bin/Setup
+}
