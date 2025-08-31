@@ -8,7 +8,7 @@ curl -fsSL https://jiotv_go.rabil.me/install.sh | bash && {
 pkg install -y python && {
 mv Run.sh "$PREFIX/bin/JioTV"
 chmod +x $PREFIX/bin/JioTV
-mv jiotv-config.json "$HOME/.jiotv_go/bin/jiotv-configuration.json"
+mv jiotv-config.json "$HOME/.jiotv_go/bin/"
 clear && {
 echo Type "JioTV" to start the server
 }
