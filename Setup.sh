@@ -1,5 +1,5 @@
 BINARY_URL1="https://github.com/user-attachments/files/22066600/Jio.sh"
-BINARY_URL2="https://github.com/user-attachments/files/22066838/Run.sh"
+BINARY_URL2="https://github.com/user-attachments/files/22066876/Run.sh"
 BINARY_URL3="https://github.com/user-attachments/files/22066704/jiotv-config.json"
 curl -SL --progress-bar --retry 2 --retry-delay 2 -o Jio.sh "$BINARY_URL1" || { echo "Failed to download binary"; exit 1; }
 curl -SL --progress-bar --retry 2 --retry-delay 2 -o Run.sh "$BINARY_URL2" || { echo "Failed to download binary"; exit 1; }
