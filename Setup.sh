@@ -10,7 +10,7 @@ mv Run.sh "$PREFIX/bin/JioTV"
 chmod +x $PREFIX/bin/JioTV
 mv jiotv-config.json "$HOME/.jiotv_go/bin"
 clear && {
-echo Type "JioTV" to start the server
+echo Type ""JioTV"" to start the server
 }
 }
 }
